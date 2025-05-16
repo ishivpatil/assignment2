@@ -1,11 +1,16 @@
-# Task 2: Create a Personalized Greeting
+#Takes an integer input from the user.
+number =int(input("enter the number"))
+if number %2 ==0:
+    print(f"{number} is an even number.")
+else:
+    print(f"{number} is an odd number.")
+# Uses a for loop to iterate over numbers from 1 to 50.
+n='1 to 50'
+for i in range(1,int(50)):
+    print(i)
 
-# 1. Take first and last name as input
-first_name = input("Enter your first name: ")
-last_name = input("Enter your last name: ")
-
-# 2. Concatenate first and last name
-full_name = first_name + " " + last_name
-
-# 3. Print personalized greeting
-print(f"\nHello, {full_name}! Welcome to the Python program.")
+#Calculates the sum of all integers in this range
+#range
+list(range(1,50))
+total=sum(range(1,50))
+print(f"The sum of numbers from 1 to 50 is:{total}")
